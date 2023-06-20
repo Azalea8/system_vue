@@ -58,7 +58,7 @@ export default {
     }
   },
   created() {
-    axios.get('api/material/').then(ret => {
+    axios.get('test/material/').then(ret => {
       //data属性名称是固定的，用于获取后台响应的数据
       console.log(ret)
       this.data_list = ret.data
